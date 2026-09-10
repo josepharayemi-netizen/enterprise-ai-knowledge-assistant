@@ -1,0 +1,6 @@
+services:
+  knowledge-assistant:
+    build: .
+    ports: ["8000:8000"]
+    read_only: true
+    tmpfs: ["/tmp"]
