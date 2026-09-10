@@ -1,0 +1,5 @@
+[
+  {"question":"How quickly must a security incident be reported?","expected_source":"security_policy.md"},
+  {"question":"How many annual leave days do employees receive?","expected_source":"employee_handbook.md"},
+  {"question":"Who can approve a customer refund?","expected_source":"operations_manual.md"}
+]
