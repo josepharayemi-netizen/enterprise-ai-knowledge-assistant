@@ -2,6 +2,8 @@
 
 A secure, citation-first retrieval-augmented generation (RAG) portfolio project for answering questions from internal company documents.
 
+![Enterprise knowledge assistant demonstration](docs/demo.svg)
+
 ## Business problem
 
 Employees lose time searching scattered policies and operating procedures. Generic chatbots may hallucinate, expose restricted information, or obey malicious instructions hidden in documents. This assistant retrieves only authorized evidence, cites every answer, detects common prompt-injection patterns, and declines when evidence is insufficient.
