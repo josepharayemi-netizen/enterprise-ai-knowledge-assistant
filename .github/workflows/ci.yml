@@ -12,5 +12,8 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python -m assistant_app.ingest --source knowledge --output artifacts/index.joblib
       - run: python -m assistant_app.evaluate
-      - run: pytest -q
+      - name: Run tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python -m pytest -q
       - run: docker build -t enterprise-knowledge-assistant .
